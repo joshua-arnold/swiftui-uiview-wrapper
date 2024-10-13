@@ -2,6 +2,10 @@
 
 A helper for using `UIKit` UIViews in `SwiftUI`.
 
+The wrapper uses iOS 16+ APIs to size the UIKit view using auto layout constraints correctly. 
+
+It also supports animating the `UIView` using SwiftUI animation modifiers.
+
 ### Example usage
 
 ```swift
